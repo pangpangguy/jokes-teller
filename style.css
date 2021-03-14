@@ -35,13 +35,12 @@ body{
    box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.2);
  }
 
- button:hover{
+ button:hover:enabled{
   background: rgb(38, 127, 230);
    filter: brightness(90%);
  }
 
- button:active{
-   
+ button:active:enabled{
    transform: scale(0.98);
  }
 
